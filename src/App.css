@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+}
+
+h1, h2 {
+  color: #3c596d;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1200px;
+}

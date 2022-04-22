@@ -1,0 +1,62 @@
+form {
+  /* Centrar el formulario en la página */
+  margin: 2rem auto;
+  width: 400px;
+  /* Esquema del formulario */
+  padding: 1em;
+}
+
+h2 {
+  margin-top: 1.5rem;
+}
+
+label {
+  /* Tamaño y alineación uniforme */
+  display:block;
+  width: 90px;
+  font: 1em sans-serif;
+}
+
+label:nth-child(odd) {
+  margin-top: 1rem;
+  margin-bottom: .3rem;
+}
+
+input {
+  /* Para asegurarse de que todos los campos de texto tienen la misma configuración de letra
+     Por defecto, las áreas de texto tienen un tipo de letra monoespaciada */
+  font: 1em sans-serif;
+  padding: .6rem 1rem;
+  border-radius: .2rem;
+
+  /* Tamaño uniforme del campo de texto */
+  width: 350px;
+  box-sizing: border-box;
+
+  /* Hacer coincidir los bordes del campo del formulario */
+  border: 1px solid rgb(209, 209, 209);
+  outline: none;
+}
+
+.btn-block {
+  margin-top: 1rem;
+}
+
+.button {
+  /* Alinear los botones con los campos de texto */
+  width: 95%;
+  border: none;
+  padding: .6rem 1rem;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #0fca57;
+  // background-color: #008be7;
+  color: #FFF;
+  border-radius: .2rem;
+}
+
+button {
+  /* Este margen adicional representa aproximadamente el mismo espacio que el espacio
+     entre las etiquetas y sus campos de texto */
+  margin-left: .5em;
+}
